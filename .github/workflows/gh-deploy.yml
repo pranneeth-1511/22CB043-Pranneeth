@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone-repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@a81bbbf8298c0fa03ea29cdc473d45769f953675
       - name: install npm packages
         run: npm install
       - name: npm run build
